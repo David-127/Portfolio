@@ -45,3 +45,14 @@ h3 {
   font-size: 50px;
   text-align: center;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Open Sans";
+  color: white;
+  text-shadow: red 3px 3px 3px;
+  -webkit-text-stroke: white 2px;
+  margin-top: 2%;
+  margin-bottom: 40px;
+}
