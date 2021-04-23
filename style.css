@@ -38,12 +38,13 @@ h3 {
 }
 
 .indextext1 {
-  position: absolute;
-  color: white;
+  margin-top: 25%;
+  color:white;
   font-family: "Segoe UI", "Open Sans";
-  -webkit-text-stroke: white 5px;
-  font-size: 50px;
-  text-align: center;
+  font-size: 56px;
+  width: 75%;
+  text-shadow:black 10px 10px 10px;
+  -webkit-text-stroke:white 6px;
 }
 
 footer{
@@ -55,4 +56,23 @@ footer{
   -webkit-text-stroke: white 2px;
   margin-top: 2%;
   margin-bottom: 40px;
+}
+
+.imgtext{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.mainindex{
+display: flex;
+justify-content: center;
+}
+
+p{
+font-family: "Segoe UI", "Open Sans";
+color: white;
+-webkit-text-stroke:white 3px;
+font-size: 30px;
+width: 45%;
 }
