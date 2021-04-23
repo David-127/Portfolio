@@ -1,3 +1,14 @@
+a{
+  text-decoration:none;
+  color: white;
+}
+
+a:hover{
+  color: purple;
+  text-shadow:darkviolet 3px 3px 3px;
+}
+
+
 body {
   background-color: #280137;
   padding: 0%;
@@ -38,7 +49,7 @@ h3 {
 }
 
 .indextext1 {
-  margin-top: 25%;
+  margin-top: 20%;
   color:white;
   font-family: "Segoe UI", "Open Sans";
   font-size: 56px;
@@ -59,6 +70,7 @@ footer{
 }
 
 .imgtext{
+  margin-top: 2%;
   display: flex;
   position: absolute;
   justify-content: center;
