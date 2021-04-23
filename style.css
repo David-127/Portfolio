@@ -1,0 +1,47 @@
+body {
+  background-color: #280137;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerstart {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Segoe UI", "Open Sans";
+  color: white;
+  text-shadow: purple 3px 3px 3px;
+  -webkit-text-stroke: white 1px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
+h3 {
+  font-size: 15px;
+}
+
+.vbgbild {
+  position: relative;
+  width: 100%;
+  filter: opacity(0.5);
+}
+
+.bildbox {
+  display: flex;
+  filter: blur(2px);
+}
+
+.indextext1 {
+  position: absolute;
+  color: white;
+  font-family: "Segoe UI", "Open Sans";
+  -webkit-text-stroke: white 5px;
+  font-size: 50px;
+  text-align: center;
+}
