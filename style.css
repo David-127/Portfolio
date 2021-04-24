@@ -17,7 +17,7 @@ body {
   flex-direction: column;
 }
 
-.headerstart {
+header{
   display: flex;
   justify-content: space-evenly;
   font-family: "Segoe UI", "Open Sans";
@@ -25,6 +25,8 @@ body {
   text-shadow: purple 3px 3px 3px;
   -webkit-text-stroke: white 1px;
 }
+
+
 
 h1 {
   font-size: 20px;
