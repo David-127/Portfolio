@@ -1,13 +1,13 @@
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
   color: white;
 }
 
-a:hover{
+a:hover {
   color: purple;
-  text-shadow:darkviolet 3px 3px 3px;
+  text-shadow: darkviolet 3px 3px 3px;
+  -webkit-text-stroke: purple 1px;
 }
-
 
 body {
   background-color: #280137;
@@ -17,7 +17,7 @@ body {
   flex-direction: column;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-evenly;
   font-family: "Segoe UI", "Open Sans";
@@ -25,8 +25,6 @@ header{
   text-shadow: purple 3px 3px 3px;
   -webkit-text-stroke: white 1px;
 }
-
-
 
 h1 {
   font-size: 20px;
@@ -51,16 +49,16 @@ h3 {
 }
 
 .indextext1 {
-  margin-top: 20%;
-  color:white;
+  margin-top: 10%;
+  color: white;
   font-family: "Segoe UI", "Open Sans";
   font-size: 56px;
   width: 75%;
-  text-shadow:black 10px 10px 10px;
-  -webkit-text-stroke:white 6px;
+  text-shadow: black 10px 10px 10px;
+  -webkit-text-stroke: white 6px;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   font-family: "Segoe UI", "Open Sans";
@@ -71,22 +69,22 @@ footer{
   margin-bottom: 40px;
 }
 
-.imgtext{
+.imgtext {
   margin-top: 2%;
   display: flex;
   position: absolute;
   justify-content: center;
 }
 
-.mainindex{
-display: flex;
-justify-content: center;
+.mainindex {
+  display: flex;
+  justify-content: center;
 }
 
-p{
-font-family: "Segoe UI", "Open Sans";
-color: white;
--webkit-text-stroke:white 3px;
-font-size: 30px;
-width: 45%;
+p {
+  font-family: "Segoe UI", "Open Sans";
+  color: white;
+  -webkit-text-stroke: white 3px;
+  font-size: 30px;
+  width: 45%;
 }
