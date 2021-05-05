@@ -6,7 +6,7 @@ a {
 a:hover {
   color: purple;
   text-shadow: darkviolet 3px 3px 3px;
-  -webkit-text-stroke: purple 1px;
+  -webkit-text-stroke: purple 2px;
 }
 
 body {
@@ -74,11 +74,28 @@ footer {
   display: flex;
   position: absolute;
   justify-content: center;
+  height: 10%;
 }
 
 .mainindex {
   display: flex;
   justify-content: center;
+  animation-duration: 4s;
+  animation-name: textslide;
+}
+
+@keyframes textslide {
+  from {
+    margin-left: -100%;
+    width: 100%;
+    filter: opacity(0.1);
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    filter: opacity(1);
+  }
 }
 
 p {
