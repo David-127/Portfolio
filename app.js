@@ -1,12 +1,14 @@
-let animationtext = document.getElementsByClassName('mainindex')
+let animationtext = document.querySelector('.mainindex')
 
 window.addEventListener("scroll", (event) => {
     console.log(window.scrollY);
-    if (window.scrollY > 150) {
-        // user scrolled more than 250px, do something ...
-      element.addClass('mainindex');
+    if (window.scrollY > 250) {
+        // user scrolled more than 150px, do something ...
+     animationtext.style.animation='textslide 3s 1' ;
+     animationtext.style.visibility='visible';
     }
     else{
-     element.removeClass('mainindex');
     }
     })
+
+let animationabout1 = document.querySelector('.articleabout')

@@ -80,8 +80,8 @@ footer {
 .mainindex {
   display: flex;
   justify-content: center;
-  animation-duration: 4s;
-  animation-name: textslide;
+  animation-name: 'textslide';
+  visibility: hidden;
 }
 
 @keyframes textslide {
@@ -105,3 +105,39 @@ p {
   font-size: 30px;
   width: 45%;
 }
+
+.abouth4{
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Open Sans";
+  color: white;
+  text-shadow: purple 3px 3px 3px;
+  -webkit-text-stroke: white 1px;
+  font-size: 36px;
+}
+
+.brdbild {
+  position: relative;
+  width: 100%;
+  filter: opacity(0.5);
+}
+
+.articleabout{
+  color: white;
+  font-family: "Segoe UI", "Open Sans";
+  font-size: 26px;
+  width: 75%;
+  text-shadow: black 10px 10px 10px;
+  -webkit-text-stroke: white 2px;
+}
+
+.imgtextabout{
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+}
+
