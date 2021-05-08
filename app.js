@@ -10,5 +10,3 @@ window.addEventListener("scroll", (event) => {
     else{
     }
     })
-
-let animationabout1 = document.querySelector('.articleabout')

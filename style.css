@@ -129,15 +129,28 @@ p {
   width: 75%;
   text-shadow: black 10px 10px 10px;
   -webkit-text-stroke: white 2px;
+  animation-duration: 2s;
+  animation-name: 'aboutslide';
+}
+
+@keyframes aboutslide{
+  from {
+    margin-right: -100%;
+    width: 100%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+
 }
 
 .imgtextabout{
   margin-top: 20%;
-  display: flex;
-  justify-content: center;
   position: absolute;
   display: flex;
   justify-content: center;
-
 }
+
 
