@@ -80,7 +80,7 @@ footer {
 .mainindex {
   display: flex;
   justify-content: center;
-  animation-name: 'textslide';
+  animation-name: "textslide";
   visibility: hidden;
 }
 
@@ -106,7 +106,7 @@ p {
   width: 45%;
 }
 
-.abouth4{
+.abouth4 {
   display: flex;
   justify-content: center;
   font-family: "Segoe UI", "Open Sans";
@@ -122,35 +122,34 @@ p {
   filter: opacity(0.5);
 }
 
-.articleabout{
+.articleabout {
   color: white;
   font-family: "Segoe UI", "Open Sans";
   font-size: 26px;
   width: 75%;
   text-shadow: black 10px 10px 10px;
   -webkit-text-stroke: white 2px;
-  animation-duration: 2s;
-  animation-name: 'aboutslide';
+  visibility: hidden;
+  animation-name: "aboutslide";
 }
 
-@keyframes aboutslide{
+@keyframes aboutslide {
   from {
     margin-right: -100%;
-    width: 100%;
+    width: 10%;
+    filter: opacity(0.1);
   }
 
   to {
     margin-right: 0%;
-    width: 100%;
+    width: 75%;
+    filter: opacity(1);
   }
-
 }
 
-.imgtextabout{
+.imgtextabout {
   margin-top: 20%;
   position: absolute;
   display: flex;
   justify-content: center;
 }
-
-
