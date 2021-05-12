@@ -179,3 +179,52 @@ p {
 .phone{
   width: 100%;
 }
+
+.Work{
+display: flex;
+flex-direction: column;
+}
+
+.work1 , .work2, .work3{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 10%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.picWork{
+  box-shadow: black 10px 10px 10px;
+}
+
+.workText{
+  display: flex;
+  justify-content:center;
+  animation-name:'workslide';
+  visibility: hidden;
+}
+
+@keyframes workslide {
+  from {
+    margin-right: -100%;
+    filter: opacity(0.1);
+  }
+
+  to {
+    margin-right: 0%;
+    filter: opacity(1);
+  }
+}
+
+.h4Work{
+  font-family: "Segoe UI", "Open Sans";
+  color: white;
+  text-shadow: purple 3px 3px 3px;
+  -webkit-text-stroke: white 1px;
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+
