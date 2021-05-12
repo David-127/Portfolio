@@ -153,3 +153,29 @@ p {
   display: flex;
   justify-content: center;
 }
+
+.aboutImg{
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgAbout{
+  display: flex;
+  justify-content: center;
+  width: 720px;
+  height: 920px;
+  filter :opacity(0.5);
+  box-shadow: black 10px 10px 10px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone{
+  width: 100%;
+}
