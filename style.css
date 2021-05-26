@@ -154,7 +154,7 @@ p {
   justify-content: center;
 }
 
-.aboutImg{
+.aboutImg {
   margin-top: 7%;
   display: flex;
   flex-direction: column;
@@ -162,30 +162,32 @@ p {
   align-items: center;
 }
 
-.imgAbout{
+.imgAbout {
   display: flex;
   justify-content: center;
   width: 720px;
   height: 920px;
-  filter :opacity(0.5);
+  filter: opacity(0.5);
   box-shadow: black 10px 10px 10px;
 }
 
-.contact{
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.phone{
+.phone {
   width: 100%;
 }
 
-.Work{
-display: flex;
-flex-direction: column;
+.Work {
+  display: flex;
+  flex-direction: column;
 }
 
-.work1 , .work2, .work3{
+.work1,
+.work2,
+.work3 {
   display: flex;
   justify-content: center;
   height: 300px;
@@ -194,14 +196,14 @@ flex-direction: column;
   justify-content: space-around;
 }
 
-.picWork{
+.picWork {
   box-shadow: black 10px 10px 10px;
 }
 
-.workText{
+.workText {
   display: flex;
-  justify-content:center;
-  animation-name:'workslide';
+  justify-content: center;
+  animation-name: "workslide";
   visibility: hidden;
 }
 
@@ -217,7 +219,7 @@ flex-direction: column;
   }
 }
 
-.h4Work{
+.h4Work {
   font-family: "Segoe UI", "Open Sans";
   color: white;
   text-shadow: purple 3px 3px 3px;
@@ -227,4 +229,23 @@ flex-direction: column;
   justify-content: center;
 }
 
-
+@media only screen and (max-width: 1000px) {
+  .indextext1 {
+    font-size: 36px;
+    -webkit-text-stroke: 4px;
+  }
+  .abouth4 {
+    font-size: 22px;
+  }
+  .articleabout {
+    font-size: 14px;
+    width: 60%;
+    -webkit-text-stroke: 1px;
+  }
+  .worktext1,
+  .worktext2,
+  .worktext3 {
+    font-size: 20px;
+    -webkit-text-stroke: 2px;
+  }
+}
